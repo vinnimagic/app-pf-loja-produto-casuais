@@ -1,12 +1,14 @@
 import React from 'react';
 import GlobalStyle from "./styles/global";
-import Home from './pages/home';
+import Menu from './components/menu/menu'
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Home/>
+      <Menu>
+
+      </Menu>
     </>
   );
 }
